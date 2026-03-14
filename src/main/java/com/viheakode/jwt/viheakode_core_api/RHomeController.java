@@ -8,7 +8,7 @@ public class RHomeController {
     
     @GetMapping
     public String home(){
-        return "Home page";
+        return "App is running";
     }
 
     @GetMapping("/user")
